@@ -10,7 +10,6 @@ class Search extends React.Component {
     };
   }
   handleOnInputChange = (e) => {
-    debugger;
     const { users } = this.props.users;
     let suggestions = [];
     const value = e.target.value;
